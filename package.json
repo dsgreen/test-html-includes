@@ -1,0 +1,16 @@
+{
+  "name": "test-html-includes",
+  "version": "1.0.0",
+  "description": "Testing html-includes",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "html-includes": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:html": "html-includes --src src --dest dist --watch"
+  },
+  "author": "Douglas Green",
+  "license": "ISC"
+}
